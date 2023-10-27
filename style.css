@@ -42,19 +42,19 @@ nav > img {
     justify-content: space-between;
     align-items: center;
     color: var(--mediumGray);
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .dropdown {
     width: 100%;
-    margin-left: 4vw;
+    margin-left: 3vw;
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
 }
 
 .menu {
-    margin-right: 5vw;
+    margin-right: 3vw;
     position: relative;
     display: inline-block;
 }
@@ -109,7 +109,7 @@ nav > img {
 }
 
 .sign {
-    width: 200px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -120,7 +120,8 @@ nav > img {
 .sign button {
     border: solid 2px var(--mediumGray);
     border-radius: .7rem;
-    padding: .5rem 1rem;
+    padding: .75rem 1rem;
+    font-family: Epilogue, sans-serif;
     color: var(--mediumGray);
     background-color: var(--almostWhite);
 }
@@ -193,6 +194,8 @@ nav > img {
     border: solid 2px var(--mediumGray);
     border-radius: .7rem;
     padding: .5rem 1rem;
+    font-family: Epilogue, sans-serif;
+    font-size: 16px;
     color: var(--mediumGray);
     background-color: var(--almostWhite);
 }
@@ -244,10 +247,11 @@ main {
     border: solid 1px var(--almostBlack);
     border-radius: 1rem;
     width: 8rem;
-    color: var(--almostWhite);
-    background-color: var(--almostBlack);
     padding: 1rem;
+    font-family: Epilogue, sans-serif;
+    font-size: 16px;
     font-weight: 700;
+    color: var(--almostWhite);
 }
 
 .left button:hover ,.left button:focus {
