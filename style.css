@@ -43,6 +43,7 @@ nav > img {
     align-items: center;
     color: var(--mediumGray);
     font-size: 14px;
+    font-weight: 700;
 }
 
 .dropdown {
@@ -109,11 +110,13 @@ nav > img {
 }
 
 .sign {
-    width: 250px;
+    width: 225px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    font-size: 14px;
+    font-weight: 700;
     color: var(--mediumGray);
 }
 
@@ -122,6 +125,8 @@ nav > img {
     border-radius: .7rem;
     padding: .75rem 1rem;
     font-family: Epilogue, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
     color: var(--mediumGray);
     background-color: var(--almostWhite);
 }
@@ -247,11 +252,12 @@ main {
     border: solid 1px var(--almostBlack);
     border-radius: 1rem;
     width: 8rem;
-    padding: 1rem;
+    padding: 1.5rem;
     font-family: Epilogue, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--almostWhite);
+    background-color: var(--almostBlack);
 }
 
 .left button:hover ,.left button:focus {
