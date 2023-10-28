@@ -116,7 +116,7 @@ nav > img {
     justify-content: space-between;
     list-style: none;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--mediumGray);
 }
 
@@ -126,7 +126,7 @@ nav > img {
     padding: .75rem 1rem;
     font-family: Epilogue, sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--mediumGray);
     background-color: var(--almostWhite);
 }
