@@ -252,7 +252,7 @@ main {
     border: solid 1px var(--almostBlack);
     border-radius: 1rem;
     width: max-content;
-    padding: 1rem;
+    padding: .75rem 1rem;
     font-family: Epilogue, sans-serif;
     font-size: 16px;
     font-weight: 700;
